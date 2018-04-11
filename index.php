@@ -20,9 +20,9 @@
     </header>
     <section class="start">
       <img src="img/drone1.png" class="start-imgCarrousel" alt="exemple drone">
-      <img style="display: none;" src="img/drone2.png" class="start-imgCarrousel" alt="exemple drone">
-      <img style="display: none;" src="img/drone3.png" class="start-imgCarrousel" alt="exemple drone">
-      <a class="start-button" href="configure.php">Configure ton drone</a>
+      <img style="" src="img/drone2.png" class="start-imgCarrousel" alt="exemple drone">
+      <img style="" src="img/drone3.png" class="start-imgCarrousel" alt="exemple drone">
+      <a class="start-button" href="configurator.php">Configure ton drone</a>
     </section>
 
 

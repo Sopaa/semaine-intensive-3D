@@ -1,4 +1,28 @@
+@font-face {
+  font-family: 'FuturaBold';
+  src: url('../fonts/FuturaBold.otf') format('truetype');
+}
+@font-face {
+  font-family: 'FuturaLight';
+  src: url('../fonts/FuturaLight.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:  inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'FuturaBold';
+}
+
+body {
+    box-sizing: border-box;
+}
+
 .header{
+  font-size: 1.6rem;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -9,7 +33,6 @@
   left: 0;
   top: 20px;
   z-index: 3;
-  background:green;
 }
 .nav-listContainer{
   display: flex;
@@ -20,15 +43,14 @@
 
 
 .start{
+  font-size: 1.6rem;
   position: relative;
   height: 100vh;
-  background: pink;
 }
 .start-imgCarrousel{
   position: absolute;
   height: 100vh;
   width: 100vw;
-  background: orange;
   transition: width 0.5 ease;
 }
 .start-button{
@@ -45,11 +67,11 @@
   border-radius: 30px;
   align-items: center;
   padding-left: 85px;
-  color: black;
+  color: white;
   transition: color 0.3s ease;
   transition: background 0.3s ease;
 
-  background: white;
+  background: #616060a6;
 }
 
 .start-button:hover{
@@ -66,20 +88,6 @@
 
 /* */
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing:  inherit;
-}
-
-html {
-
-}
-
-body {
-    box-sizing: border-box;
-}
 
   .description {
     height: auto;
@@ -186,4 +194,44 @@ body {
         transform: scale(1);
         box-shadow: none;
     }
+}
+.wrapper{
+  margin-top: 60px;
+  display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 10px;
+}
+
+.left-player{
+  border-radius: 10px;
+  border: 1px dotted black;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  height: calc(100vh - 60px);
+}
+.right-recap{
+  border-radius: 10px;
+  border: 1px dotted black;
+  grid-column: 4;
+  grid-row: 1;
+  height: calc(100vh - 60px);
+}
+.UnityPlayer{
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+.recap-title{
+  font-size: 1.8rem;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.recap-item{
+  font-family: 'FuturaLight';
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+.recap-itemSpan{
+  font-family: 'FuturaBold';
+  font-size: 1.6rem;
 }
