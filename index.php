@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>pas ptdr</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <header class="header">
@@ -19,9 +19,9 @@
         </nav>
     </header>
     <section class="start">
-      <img src="img/drone1.png" class="start-imgCarrousel" alt="exemple drone">
-      <img style="" src="img/drone2.png" class="start-imgCarrousel" alt="exemple drone">
-      <img style="" src="img/drone3.png" class="start-imgCarrousel" alt="exemple drone">
+      <img src="assets/img/drone1.png" class="start-imgCarrousel" alt="exemple drone">
+      <img style="" src="assets/img/drone2.png" class="start-imgCarrousel" alt="exemple drone">
+      <img style="" src="assets/img/drone3.png" class="start-imgCarrousel" alt="exemple drone">
       <a class="start-button" href="configurator.php">Configure ton drone</a>
     </section>
 
@@ -33,13 +33,13 @@
             <p class="description__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid et nisi nesciunt enim consequatur optio impedit eveniet explicabo provident eum!</p>
         </div>
 
-        <img class="description__img img-1" src="../img/nat-1.jpg" alt="Drone 1">
-        <img class="description__img img-2" src="../img/nat-2.jpg" alt="Drone 2">
+        <img class="description__img img-1" src="assets/img/nat-1.jpg" alt="Drone 1">
+        <img class="description__img img-2" src="assets/img/nat-2.jpg" alt="Drone 2">
         <div class="description__container-link">
           <a class="description__link" href="">Start Here</a>
         </div>
       </div>
     </section>
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
