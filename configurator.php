@@ -29,7 +29,7 @@
 
   <div class="wrapper">
     <div class="left-player">
-      <div id="gameContainer" style="width: 100%; height: 620px;;">
+      <div id="gameContainer" style="width: 95%; height: 580px;">
 
       </div>
     </div>
