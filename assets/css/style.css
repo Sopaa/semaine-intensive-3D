@@ -19,12 +19,8 @@ html {
   font-family: 'FuturaBold';
 }
 
-body {
-  <<<<<<< HEAD: css/style.css box-sizing: border-box;
-}
-
 .header {
-  =======box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 1.6rem;
   position: fixed;
   display: flex;
@@ -58,6 +54,7 @@ body {
 }
 
 .start-imgCarrousel {
+  object-fit: cover;
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -200,20 +197,17 @@ body {
   margin-top: 60px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-gap: 30px;
 }
 
 .left-player {
   border-radius: 10px;
-  border: 1px dotted black;
   grid-column: 1 / 4;
   grid-row: 1;
   height: calc(100vh - 60px);
 }
 
 .right-recap {
-  border-radius: 10px;
-  border: 1px dotted black;
   grid-column: 4;
   grid-row: 1;
   height: calc(100vh - 60px);
@@ -223,7 +217,6 @@ body {
 
 .UnityPlayer {
   border-radius: 10px;
-  border: 1px solid red;
 }
 
 .recap-title {
@@ -322,17 +315,7 @@ body {
 }
 
 .left-player {
-  border-radius: 10px;
-  border: 1px dotted black;
   grid-column: 1 / 4;
-  grid-row: 1;
-  height: calc(100vh - 60px);
-}
-
-.right-recap {
-  border-radius: 10px;
-  border: 1px dotted black;
-  grid-column: 4;
   grid-row: 1;
   height: calc(100vh - 60px);
 }
