@@ -36,9 +36,7 @@
     <div class="right-recap">
 
       <h2 class="recap-title">Récapitulatif:</h2>
-      <p class="recap-item"><span class="recap-itemSpan">A retirer</span> c'est un test</p>
-      <p class="recap-item"><span class="recap-itemSpan">A retirer</span> c'est un test</p>
-      <p class="recap-item"><span class="recap-itemSpan">A retirer</span> c'est un test</p>
+
       <a class="recap-button" href="cart.php">Ajouter au panier</a>
     </div>
 
