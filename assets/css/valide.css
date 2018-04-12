@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0rem;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    padding: 2rem;
+    align-items: center;
+
+    background:#F9F9F9;
+  }
+
+  .header-title {
+    font-size: 2.6rem;
+  }
+
+  .nav-listContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+    font-size: 1.6rem;
+
+    list-style: none;
+}
+
+.nav-listLink {
+    text-decoration: none;
+    color: black;    
+}
+
+.container {
+    background-color: #F9F9F9;
+    height: 92vh;
+    background-image: url("../img/paiement2.png");
+    background-repeat: no-repeat;
+    background-size: 40rem;
+    background-position: 0 50%;
+
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 2.5fr 1fr 1.5fr 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 2rem;
+    grid-auto-rows: minmax(10rem, auto);
+}
+
+.mini__container {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 2rem;
+    grid-auto-rows: minmax(10rem, auto);
+    padding: 1rem;
+
+
+    grid-column: 3 / 6;
+    grid-row: 2 / 8;
+
+}
