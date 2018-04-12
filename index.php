@@ -13,11 +13,10 @@
     <h1 class="header-title">Site.fr</h1>
     <nav class="nav">
       <ul class="nav-listContainer">
-        <li class="nav-listItem"><a href="">bla</a></li>
-        <li class="nav-listItem"><a href="">bla</a></li>
-        <li class="nav-listItem"><a href="">bla</a></li>
-        <li class="nav-listItem"><a href="">bla</a></li>
-        <li class="nav-listItem"><a href="cart.php"><img class="header-cart" src="img/cart.png"></a></li>
+        <li class="nav-listItem"><a href="index.php">Acceuil</a></li>
+        <li class="nav-listItem"><a href="">Drones</a></li>
+        <li class="nav-listItem"><a href="">Contact</a></li>
+        <li class="nav-listItem"><a href="cart.php"><img class="header-cart" src="assets/img/cart.png" alt="cart"></a></li>
       </ul>
     </nav>
   </header>

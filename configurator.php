@@ -10,7 +10,7 @@
   <script src="assets/TemplateData/UnityProgress.js"></script>
   <script src="assets/Build/UnityLoader.js"></script>
   <script>
-    var gameInstance = UnityLoader.instantiate("gameContainer", "assets/Build/BuildTest001.json", {onProgress: UnityProgress});
+    var gameInstance = UnityLoader.instantiate("gameContainer", "assets/Build/BuildTest02.json", {onProgress: UnityProgress});
   </script>
 </head>
 
@@ -19,11 +19,10 @@
     <h1 class="header-title">Site.fr</h1>
     <nav class="nav">
       <ul class="nav-listContainer">
-        <li class="nav-listItem"><a href="">bla</a></li>
-        <li class="nav-listItem"><a href="">bla</a></li>
-        <li class="nav-listItem"><a href="">bla</a></li>
-        <li class="nav-listItem"><a href="">bla</a></li>
-        <li class="nav-listItem"><a href="cart.php"><img class="header-cart" src="assets/img/cart.png"></a></li>
+        <li class="nav-listItem"><a href="index.php">Acceuil</a></li>
+        <li class="nav-listItem"><a href="">Drones</a></li>
+        <li class="nav-listItem"><a href="">Contact</a></li>
+        <li class="nav-listItem"><a href="cart.php"><img class="header-cart" src="assets/img/cart.png" alt="cart"></a></li>
       </ul>
     </nav>
   </header>

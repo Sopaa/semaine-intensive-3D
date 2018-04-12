@@ -66,22 +66,22 @@ body {
 
 .start-button {
   display: flex;
-  position: absolute;
-  width: 300px;
-  height: 60px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 60px;
-  border: 2px solid black;
-  border-radius: 30px;
-  align-items: center;
-  padding-left: 85px;
-  color: white;
-  transition: color 0.3s ease;
-  transition: background 0.3s ease;
-  <<<<<<< HEAD: css/style.css=======>>>>>>> 462e6fc9bae0ce636e95f65a2baa8c810614e14a:assets/css/style.css background: #616060a6;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 60px;
+    border: 2px solid black;
+    border-radius: 30px;
+    align-items: center;
+    /* padding-left: 85px; */
+    color: white;
+    transition: color 0.3s ease;
+    transition: background 0.3s ease;
+    justify-content: space-around;
 }
 
 .start-button:hover {
@@ -269,14 +269,12 @@ body {
 }
 
 .cart-container {
-  position: relative;
-}
-
-.cart-background {
-  position: absolute;
-  height: 70vh;
-  top: 16vh;
-  left: -10px;
+  height: calc(100vh - 60px);
+  width: 100vw;
+  background-image: url("../img/cart_left.png");
+  background-repeat: no-repeat;
+  background-size: 40rem;
+  background-position: 0 50%;
 }
 
 .cart-itemsDescrition {
@@ -359,4 +357,32 @@ body {
 .recap-itemSpan {
   font-family: 'FuturaBold';
   font-size: 1.6rem;
+}
+
+.cart-pay{
+  font-size: 1.6rem;
+  display: flex;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    right: 150px;
+    border: 2px solid black;
+    border-radius: 30px;
+    align-items: center;
+    color: white;
+    background: grey;
+    transition: color 0.3s ease;
+    transition: background 0.3s ease;
+    justify-content: space-around;
+}
+.cart-pay:hover{
+  background: black;
+}
+
+.cart-payUp {
+  top: 100px;
+}
+
+.cart-payDown {
+  bottom: 100px;
 }
