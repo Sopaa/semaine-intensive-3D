@@ -2,26 +2,16 @@
   font-family: 'FuturaBold';
   src: url('../fonts/FuturaBold.otf') format('truetype');
 }
-<<<<<<< HEAD:css/style.css
 
-=======
->>>>>>> 462e6fc9bae0ce636e95f65a2baa8c810614e14a:assets/css/style.css
 @font-face {
   font-family: 'FuturaLight';
   src: url('../fonts/FuturaLight.ttf') format('truetype');
 }
-<<<<<<< HEAD:css/style.css
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-=======
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing:  inherit;
->>>>>>> 462e6fc9bae0ce636e95f65a2baa8c810614e14a:assets/css/style.css
 }
 
 html {
@@ -30,17 +20,11 @@ html {
 }
 
 body {
-<<<<<<< HEAD:css/style.css
-  box-sizing: border-box;
+  <<<<<<< HEAD: css/style.css box-sizing: border-box;
 }
 
 .header {
-=======
-    box-sizing: border-box;
-}
-
-.header{
->>>>>>> 462e6fc9bae0ce636e95f65a2baa8c810614e14a:assets/css/style.css
+  =======box-sizing: border-box;
   font-size: 1.6rem;
   position: fixed;
   display: flex;
@@ -67,13 +51,7 @@ body {
   width: 400px;
 }
 
-<<<<<<< HEAD:css/style.css
 .start {
-=======
-
-
-.start{
->>>>>>> 462e6fc9bae0ce636e95f65a2baa8c810614e14a:assets/css/style.css
   font-size: 1.6rem;
   position: relative;
   height: 100vh;
@@ -103,11 +81,7 @@ body {
   color: white;
   transition: color 0.3s ease;
   transition: background 0.3s ease;
-<<<<<<< HEAD:css/style.css
-=======
-
->>>>>>> 462e6fc9bae0ce636e95f65a2baa8c810614e14a:assets/css/style.css
-  background: #616060a6;
+  <<<<<<< HEAD: css/style.css=======>>>>>>> 462e6fc9bae0ce636e95f65a2baa8c810614e14a:assets/css/style.css background: #616060a6;
 }
 
 .start-button:hover {
@@ -116,9 +90,6 @@ body {
   animation: pulsate 1s infinite;
 }
 
-/* */
-
-<<<<<<< HEAD:css/style.css
 .description {
   height: auto;
   background-color: grey;
@@ -129,18 +100,6 @@ body {
   position: relative;
 }
 
-=======
-
-  .description {
-    height: auto;
-    background-color: grey;
-  }
-
-  .description__container {
-    height: 100vh;
-    position: relative;
-  }
->>>>>>> 462e6fc9bae0ce636e95f65a2baa8c810614e14a:assets/css/style.css
 .description__content {
   padding: 10rem;
 }
@@ -285,9 +244,9 @@ body {
 }
 
 .recap-button {
+  width: 200px;
   display: flex;
   position: absolute;
-  width: 300px;
   height: 60px;
   left: 0;
   right: 0;
@@ -296,19 +255,17 @@ body {
   bottom: 60px;
   border: 2px solid black;
   border-radius: 30px;
-  align-items: center;
-  padding-left: 75px;
+  justify-content: space-around;
   color: white;
-  transition: color 0.3s ease;
   transition: background 0.3s ease;
   font-size: 1.6rem;
   background: #616060a6;
+  align-items: center;
 }
-
 .recap-button:hover {
-  background: black;
-  color: white;
   animation: pulsate 1s infinite;
+  background: black;
+
 }
 
 .cart-container {
@@ -353,48 +310,53 @@ body {
   border-bottom: 1px solid black;
 }
 
-.cart-listContainer{
+.cart-listContainer {
   position: absolute;
   right: 150px;
   top: 200px;
 }
-.wrapper{
+
+.wrapper {
   margin-top: 60px;
   display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
 }
 
-.left-player{
+.left-player {
   border-radius: 10px;
   border: 1px dotted black;
   grid-column: 1 / 4;
   grid-row: 1;
   height: calc(100vh - 60px);
 }
-.right-recap{
+
+.right-recap {
   border-radius: 10px;
   border: 1px dotted black;
   grid-column: 4;
   grid-row: 1;
   height: calc(100vh - 60px);
 }
-.UnityPlayer{
+
+.UnityPlayer {
   border-radius: 10px;
   border: 1px solid red;
 }
 
-.recap-title{
+.recap-title {
   font-size: 1.8rem;
   text-decoration: underline;
   margin-bottom: 20px;
 }
-.recap-item{
+
+.recap-item {
   font-family: 'FuturaLight';
   font-size: 1.6rem;
   margin-bottom: 10px;
 }
-.recap-itemSpan{
+
+.recap-itemSpan {
   font-family: 'FuturaBold';
   font-size: 1.6rem;
 }

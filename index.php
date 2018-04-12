@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>pas ptdr</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -22,9 +22,9 @@
     </nav>
   </header>
   <section class="start">
-    <img src="img/drone1.png" class="start-imgCarrousel" alt="exemple drone">
-    <img style="" src="img/drone2.png" class="start-imgCarrousel" alt="exemple drone">
-    <img style="" src="img/drone3.png" class="start-imgCarrousel" alt="exemple drone">
+    <img src="assets/img/drone1.png" class="start-imgCarrousel" alt="exemple drone">
+    <img style="" src="assets/img/drone2.png" class="start-imgCarrousel" alt="exemple drone">
+    <img style="" src="assets/img/drone3.png" class="start-imgCarrousel" alt="exemple drone">
     <a class="start-button" href="configurator.php">Configure ton drone</a>
   </section>
 

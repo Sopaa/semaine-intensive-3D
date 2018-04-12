@@ -4,9 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>Configure</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <script src="assets/TemplateData/UnityProgress.js"></script>
+  <script src="assets/Build/UnityLoader.js"></script>
+  <script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "assets/Build/BuildTest001.json", {onProgress: UnityProgress});
+  </script>
 </head>
 
 <body>
@@ -18,7 +23,7 @@
         <li class="nav-listItem"><a href="">bla</a></li>
         <li class="nav-listItem"><a href="">bla</a></li>
         <li class="nav-listItem"><a href="">bla</a></li>
-        <li class="nav-listItem"><a href="cart.php"><img class="header-cart" src="img/cart.png"></a></li>
+        <li class="nav-listItem"><a href="cart.php"><img class="header-cart" src="assets/img/cart.png"></a></li>
       </ul>
     </nav>
   </header>
