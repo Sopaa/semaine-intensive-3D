@@ -6,7 +6,7 @@
   <title>Configure</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  
+
 </head>
 
 <body>
@@ -25,7 +25,6 @@
 
   <div class="wrapper">
     <div class="left-player">
-      <!-- mettre le truc de unity ici -->
       <div id="gameContainer" style="width: 100%; height: 620px;;">
 
       </div>
@@ -33,7 +32,6 @@
     <div class="right-recap">
 
       <h2 class="recap-title">Récapitulatif:</h2>
-      <!-- ici c'est chelou je touche pas wallah -->
       <p class="recap-item"><span class="recap-itemSpan">A retirer</span> c'est un test</p>
       <p class="recap-item"><span class="recap-itemSpan">A retirer</span> c'est un test</p>
       <p class="recap-item"><span class="recap-itemSpan">A retirer</span> c'est un test</p>
